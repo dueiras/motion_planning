@@ -1,0 +1,40 @@
+map:
+  width: 30        # Map width in meters
+  height: 30       # Map height in meters
+  resolution: 1.0  # Cell size in meters 
+  inflate: 0.0
+  
+obstacles:
+  #- vertices: 
+  #  - [11, 5]
+  #  - [13, 6]
+  #  - [11, 7]
+  #- vertices:  
+  #  - [0, 4]
+  #  - [0, 20]
+  #  - [2, 20]
+  #  - [2, 4]
+  - vertices:  
+    - [0, 20]
+    - [0, 22]
+    - [20, 22]
+    - [20, 20]
+
+path:
+  start: [6,5]
+  goal: [10,24]
+  
+#- vertices: 
+#  - [10, 10]
+#  - [12, 10]
+#  - [11, 12]
+#- vertices: 
+#  - [15,30]
+#  - [13, 25]
+#  - [10, 30]
+#- vertices:  
+#  - [15, 2]
+#  - [15, 6]
+#  - [30, 6]
+#  - [30, 2]    
+
